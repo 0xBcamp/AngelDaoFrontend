@@ -3,7 +3,7 @@ import { Sepolia } from "@thirdweb-dev/chains";
 import { BrowserRouter as Router } from 'react-router-dom';
 import '../styles/globals.css';
 import { MyComponent } from '../context'; // Import MyComponent from your context file
-import Navbar from './components/Navbar';
+import { Navbar } from '../components/Navbar';
 
 function MyApp({ Component, pageProps }) {
   return (
