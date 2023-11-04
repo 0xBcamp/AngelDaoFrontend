@@ -33,10 +33,10 @@ const NavBar = () => {
           <Link href="/Profile">Profile</Link>
         </li>
         <li className={styles.navitem}>
-          <Link href="/contact">Contact</Link>
+          <Link href="">Contact</Link>
         </li>
         <li className={styles.navitem}>
-          <Link href="/About">About</Link>
+          <Link href="">About</Link>
         </li>
       </ul>
 
