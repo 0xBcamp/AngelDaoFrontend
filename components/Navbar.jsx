@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import '../styles/NavBar.module.css';
+import styles from '../styles/NavBar.module.css';
 import { ConnectWallet } from "@thirdweb-dev/react";
 import {angeldaologo} from '../assets'
 import Image from "next/image";
