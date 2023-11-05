@@ -2,7 +2,6 @@ import React, { useContext, createContext } from 'react';
 import { useAddress, useContract, useMetamask, useContractWrite } from '@thirdweb-dev/react';
 import { ethers } from 'ethers';
 import {crowdFundingContractAddress} from '../utils/contractsData'
-import { getTokenApproval } from '../context/angelDollar';
 import { EditionMetadataWithOwnerOutputSchema } from '@thirdweb-dev/sdk';
 
 // Create the FetchContract context
